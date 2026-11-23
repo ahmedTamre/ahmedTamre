@@ -1,0 +1,26 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse"><stop stop-color="#050816"/><stop offset=".52" stop-color="#101A38"/><stop offset="1" stop-color="#090D20"/></linearGradient>
+  <radialGradient id="nebula" cx="0" cy="0" r="1" gradientTransform="matrix(430 210 -260 530 870 130)" gradientUnits="userSpaceOnUse"><stop stop-color="#6845D9" stop-opacity=".45"/><stop offset=".55" stop-color="#2468C9" stop-opacity=".15"/><stop offset="1" stop-color="#0A1028" stop-opacity="0"/></radialGradient>
+  <linearGradient id="line" x1="150" y1="0" x2="1040" y2="420" gradientUnits="userSpaceOnUse"><stop stop-color="#78D9FF" stop-opacity="0"/><stop offset=".5" stop-color="#8B9EFF" stop-opacity=".8"/><stop offset="1" stop-color="#C49BFF" stop-opacity="0"/></linearGradient>
+  <linearGradient id="planet" x1="850" y1="90" x2="1010" y2="290" gradientUnits="userSpaceOnUse"><stop stop-color="#C4B5FD"/><stop offset=".45" stop-color="#5865C9"/><stop offset="1" stop-color="#171E48"/></linearGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="24"/></filter>
+</defs>
+<rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+<rect width="1200" height="420" rx="28" fill="url(#nebula)"/>
+<circle cx="890" cy="195" r="120" fill="#635BCE" opacity=".18" filter="url(#blur)"/>
+<g opacity=".75" fill="#DCEBFF"><circle cx="90" cy="68" r="1.5"/><circle cx="190" cy="310" r="1"/><circle cx="360" cy="80" r="1.2"/><circle cx="510" cy="350" r="1.3"/><circle cx="680" cy="58" r="1"/><circle cx="1090" cy="72" r="1.5"/><circle cx="1120" cy="330" r="1"/><circle cx="760" cy="370" r="1.2"/><circle cx="1030" cy="255" r="1.2"/><circle cx="270" cy="180" r="1"/></g>
+<path d="M60 330C250 180 440 160 620 220C800 280 970 280 1140 110" stroke="url(#line)" stroke-width="1.2"/>
+<path d="M70 365C260 215 450 195 630 255C810 315 980 315 1150 145" stroke="url(#line)" stroke-opacity=".35"/>
+<ellipse cx="920" cy="205" rx="175" ry="52" transform="rotate(-24 920 205)" stroke="#A6B8FF" stroke-opacity=".72" stroke-width="2"/>
+<ellipse cx="920" cy="205" rx="205" ry="65" transform="rotate(-24 920 205)" stroke="#8A79E8" stroke-opacity=".28" stroke-width="1"/>
+<circle cx="920" cy="195" r="94" fill="url(#planet)"/>
+<path d="M833 164C860 132 912 113 962 126C1004 137 1028 171 1027 207C1001 188 977 180 946 183C900 187 872 210 839 204C827 191 826 178 833 164Z" fill="#D7D4FF" opacity=".12"/>
+<path d="M840 245C878 264 939 273 989 245" stroke="#D4C8FF" stroke-opacity=".22" stroke-width="7" stroke-linecap="round"/>
+<circle cx="1077" cy="120" r="3" fill="#B9C8FF"/><circle cx="750" cy="125" r="2" fill="#B9C8FF"/>
+<text x="82" y="154" fill="#A7B7FF" font-family="Arial,sans-serif" font-size="13" letter-spacing="5">PERSONAL DEVELOPER SPACE</text>
+<text x="78" y="226" fill="#F4F7FF" font-family="Arial,sans-serif" font-size="66" font-weight="700" letter-spacing="2">AHMED TAMER</text>
+<text x="82" y="270" fill="#B8C5E8" font-family="Arial,sans-serif" font-size="20" letter-spacing="2">BUILDING IDEAS INTO DIGITAL EXPERIENCES</text>
+<path d="M82 302H380" stroke="#7E8DFF" stroke-opacity=".8"/>
+<text x="82" y="338" fill="#8F9DBD" font-family="Arial,sans-serif" font-size="13" letter-spacing="3">LEARN  /  CREATE  /  ITERATE</text>
+</svg>
